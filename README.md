@@ -1,9 +1,9 @@
 # LuciaDiscord v1
 
-> [!WARNING]
-> **Notice:** This v1 branch is now archived as of **March 2025**. No new updates or bug fixes will be applied here.
+> [!NOTE]
+> This **v1** branch is now archived as of **March 2025**. Rest in catnip,
 
-## v1 - March 2023-25
+###### v1.x - March 2023-25
 
 **a discord bot disguised as a fancy cat**
 
