@@ -23,6 +23,11 @@ async def load():
 @client.event
 async def on_ready():
     await client.tree.sync()
+
+    status = discord.Status[client.config['presence']['status']]
+    activity = discord.CustomActivity(name=client.config['presence']['activity'])
+
+    await client.change_presence(status=status, activity=activity)
     print(f"{client.user.name} has connected to Discord ({client.user.id}).")
 
 async def main():
@@ -32,3 +37,4 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+    
