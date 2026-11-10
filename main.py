@@ -1,5 +1,6 @@
-import os
 import asyncio
+import json
+import os
 
 import discord
 from discord.ext import commands
@@ -7,8 +8,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+with open('config.json', 'r') as f:
+    config = json.load(f)
+
 intents = discord.Intents.default()
 client = commands.Bot(command_prefix=[], help_command=None, intents=intents)
+client.config = config
 
 async def load():
     for filename in os.listdir('./cogs'):
