@@ -1,0 +1,39 @@
+{
+    "owner_id": null,
+
+    "trusted_ids": [],
+
+    "presence": {
+        "status": "online",
+        "activity": ""
+    },
+    
+    "colors": {
+        "accent": {
+            "primary": "0x000000",
+            "secondary": "0x000000",
+            "discord": "0x000000",
+            "neutral": "0x000000"
+        },
+        "status": {
+            "success": "0x000000",
+            "warning": "0x000000",
+            "error": "0x000000",
+            "error-dark": "0x000000"
+        },
+        "economy": {
+            "success": "0x000000",
+            "success-dark": "0x000000",
+            "fail": "0x000000"
+        }
+    },
+    
+    "channels": {
+        "suggestions": null,
+        "errors": null
+    },
+    
+    "logging": {
+        "level": "INFO"
+    }
+}
